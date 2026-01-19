@@ -1,4 +1,22 @@
 .card_container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: solid 2px green;
+}
+
+.accident{
+    background: linear-gradient(135deg, #E6D04C, #B8A600);
+    color: #1F1F1F;
+}
+
+.cost{
+    background: linear-gradient(135deg, #145C2B, #7BC47F);
+    color: #F5FFF6;
+}
+
+.losses{
+    background: linear-gradient(135deg, #7A001A, #C62828);
+    color: #FFF6F6;
 }

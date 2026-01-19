@@ -1,0 +1,15 @@
+.nav{
+    background: rgba(255,255,255,0.3);
+    width: fit-content;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border: solid 1px white;
+    border-radius: 40px;
+}
+
+.nav > button{
+    width: 20px;
+    height: 20px;
+}

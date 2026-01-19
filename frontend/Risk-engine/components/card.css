@@ -1,0 +1,12 @@
+.card{
+    border: solid 2px red;
+    display: flex;
+    height: 150px;
+    flex: 1 1 200px;
+    border-radius: 20px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
