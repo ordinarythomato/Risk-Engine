@@ -1,7 +1,28 @@
+.homepage{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  height: 100%;
+  margin: 20px 10px;
+}
+
 .form{
   display: flex;
   flex-direction: column; 
+  background-color:#FFFFFF;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 .fields {
   width:  150px;
+}
+
+.form, .report{
+  border: solid 2px #EEEEEE;
+}
+
+.report{
+  width: 100%;  
 }
